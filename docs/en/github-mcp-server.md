@@ -276,7 +276,7 @@ If you use GitHub Enterprise Server:
 
 ## 🆘 Get Help
 
-- Check [Troubleshooting Guide](./troubleshooting.md)
-- Check [FAQ](./faq.md)
+- Check [Troubleshooting Guide](../zh/troubleshooting.md) (中文)
+- Check [FAQ](../zh/faq.md) (中文)
 - Submit an [Issue](https://github.com/Jason-Azure/Azure-MCP/issues)
 - Refer to [GitHub Official Documentation](https://docs.github.com/)

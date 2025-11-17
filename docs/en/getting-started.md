@@ -187,13 +187,13 @@ Congratulations! You have successfully configured your first MCP server. Next, y
 ### Explore More MCP Servers
 
 - **[GitHub MCP Server](./github-mcp-server.md)** - Manage GitHub repositories, Issues, and PRs
-- **[Browser MCP](./browser-mcp.md)** - Browser automation and web testing
-- **[Datadog MCP](./datadog-mcp-server.md)** - Monitor and analyze system performance
+- **[Browser MCP](../zh/browser-mcp.md)** - Browser automation and web testing (中文)
+- **[Datadog MCP](../zh/datadog-mcp-server.md)** - Monitor and analyze system performance (中文)
 
 ### Learn Advanced Features
 
-- **[Best Practices](./best-practices.md)** - Optimize your MCP configuration
-- **[Troubleshooting](./troubleshooting.md)** - Solve common problems
+- **[Best Practices](../zh/best-practices.md)** - Optimize your MCP configuration (中文)
+- **[Troubleshooting](../zh/troubleshooting.md)** - Solve common problems (中文)
 
 ### Customize Configuration
 
@@ -229,6 +229,6 @@ You can add multiple MCP servers in `mcp.json`. For example:
 
 ## 🆘 Need Help?
 
-- Check [FAQ](./faq.md)
-- Check [Troubleshooting Guide](./troubleshooting.md)
+- Check [FAQ](../zh/faq.md) (中文)
+- Check [Troubleshooting Guide](../zh/troubleshooting.md) (中文)
 - Submit an [Issue](https://github.com/Jason-Azure/Azure-MCP/issues) in this project

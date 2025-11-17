@@ -309,7 +309,7 @@ You can set a default project via environment variables:
 
 ## 🆘 Get Help
 
-- Check [Troubleshooting Guide](./troubleshooting.md)
-- Check [FAQ](./faq.md)
+- Check [Troubleshooting Guide](../zh/troubleshooting.md) (中文)
+- Check [FAQ](../zh/faq.md) (中文)
 - Submit an [Issue](https://github.com/Jason-Azure/Azure-MCP/issues)
 - Refer to [Official Documentation](https://learn.microsoft.com/en-us/azure/devops/mcp-server/)
