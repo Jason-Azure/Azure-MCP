@@ -1,0 +1,39 @@
+{
+  "inputs": [
+    {
+      "id": "ado_org",
+      "type": "promptString",
+      "description": "Azure DevOps organization name"
+    }
+  ],
+  "servers": {
+    "azure-devops": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@azure-devops/mcp", "${input:ado_org}"]
+    },
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_TOKEN": "${env:GITHUB_TOKEN}"
+      }
+    },
+    "browser": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-playwright"]
+    },
+    "datadog": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@datadog/mcp-server"],
+      "env": {
+        "DATADOG_API_KEY": "${env:DATADOG_API_KEY}",
+        "DATADOG_APP_KEY": "${env:DATADOG_APP_KEY}",
+        "DATADOG_SITE": "datadoghq.com"
+      }
+    }
+  }
+}
