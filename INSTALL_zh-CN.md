@@ -53,8 +53,8 @@ npx @modelcontextprotocol/server-azure
 #### 方式 C: 克隆并本地构建
 
 ```bash
-# 克隆 MCP 服务器仓库
-git clone https://github.com/your-org/mcp-server-azure.git
+# 克隆 MCP 服务器仓库（将 URL 替换为实际的 MCP 服务器仓库地址）
+git clone https://github.com/<your-organization>/mcp-server-azure.git
 cd mcp-server-azure
 
 # 安装依赖
@@ -289,7 +289,7 @@ npm run build
 ## 后续步骤
 
 - 阅读 [MCP 协议文档](https://modelcontextprotocol.io/)
-- 探索 [Azure MCP 服务器示例](./examples/)
+- 探索社区提供的 Azure MCP 服务器实现
 - 加入 [社区讨论](https://github.com/Jason-Azure/Azure-MCP/discussions)
 - 贡献您自己的 MCP 服务器
 
@@ -297,7 +297,7 @@ npm run build
 
 如果您在安装过程中遇到问题：
 
-1. 查看 [常见问题 FAQ](./FAQ.md)
+1. 查看上面的故障排查部分
 2. 搜索或创建 [GitHub Issue](https://github.com/Jason-Azure/Azure-MCP/issues)
 3. 参与 [讨论区](https://github.com/Jason-Azure/Azure-MCP/discussions)
 

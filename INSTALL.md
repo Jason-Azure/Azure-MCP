@@ -53,8 +53,8 @@ npx @modelcontextprotocol/server-azure
 #### Option C: Clone and Build Locally
 
 ```bash
-# Clone MCP server repository
-git clone https://github.com/your-org/mcp-server-azure.git
+# Clone MCP server repository (replace URL with actual MCP server repository)
+git clone https://github.com/<your-organization>/mcp-server-azure.git
 cd mcp-server-azure
 
 # Install dependencies
@@ -289,7 +289,7 @@ npm run build
 ## Next Steps
 
 - Read [MCP Protocol Documentation](https://modelcontextprotocol.io/)
-- Explore [Azure MCP Server Examples](./examples/)
+- Explore community-provided Azure MCP server implementations
 - Join [Community Discussions](https://github.com/Jason-Azure/Azure-MCP/discussions)
 - Contribute your own MCP servers
 
@@ -297,7 +297,7 @@ npm run build
 
 If you encounter issues during installation:
 
-1. Check [FAQ](./FAQ.md)
+1. Review the troubleshooting section above
 2. Search or create a [GitHub Issue](https://github.com/Jason-Azure/Azure-MCP/issues)
 3. Participate in [Discussions](https://github.com/Jason-Azure/Azure-MCP/discussions)
 
